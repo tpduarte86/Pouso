@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Octis Capital",
+  "description": "Website for an industrial asset capital raise, create by Octis Capital, a real estate boutique in Sao Paulo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
