@@ -44,7 +44,7 @@ export function Newsflow() {
             
             <div className="h-48 bg-gray-800 relative overflow-hidden">
                <img 
-                src="/fulwood.jpeg" 
+                src={`${import.meta.env.BASE_URL}fulwood.jpeg`} 
                 alt="Galpão Logístico Fulwood" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-60 mix-blend-luminosity"
               />

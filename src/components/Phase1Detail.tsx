@@ -79,7 +79,7 @@ export function Phase1Detail() {
             {/* Using a placeholder that resembles an industrial facade from Unsplash */}
             <div className="relative aspect-video rounded-xl overflow-hidden border border-gray-700 shadow-2xl">
               <img 
-                src="/clia1.png" 
+                src={`${import.meta.env.BASE_URL}clia1.png`} 
                 alt="Galpão Industrial Logístico - Fachada" 
                 className="w-full h-full object-cover"
               />
@@ -91,7 +91,7 @@ export function Phase1Detail() {
             <div className="grid grid-cols-2 gap-6">
               <div className="relative aspect-square rounded-xl overflow-hidden border border-gray-700">
                 <img 
-                  src="/clia3.png" 
+                  src={`${import.meta.env.BASE_URL}clia3.png`} 
                   alt="Interior Galpão Logístico" 
                   className="w-full h-full object-cover"
                 />
@@ -101,7 +101,7 @@ export function Phase1Detail() {
               </div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-gray-700">
                 <img 
-                  src="/cliapatio.jpeg" 
+                  src={`${import.meta.env.BASE_URL}cliapatio.jpeg`} 
                   alt="Pátio CLIA" 
                   className="w-full h-full object-cover"
                 />

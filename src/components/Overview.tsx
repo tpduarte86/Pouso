@@ -34,7 +34,7 @@ export function Overview() {
 
               <div className="mt-8 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl relative">
                 <img 
-                  src="/cliaaerea.png" 
+                  src={`${import.meta.env.BASE_URL}cliaaerea.png`} 
                   alt="Vista Aérea do Complexo" 
                   className="w-full h-auto object-cover opacity-90 hover:scale-105 transition-transform duration-700"
                 />

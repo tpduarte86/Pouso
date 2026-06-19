@@ -5,9 +5,30 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Playfair Display", ui-serif, Georgia, serif;
   
-  --color-brand-900: #0f172a; /* Slate 900 */
-  --color-brand-800: #1e293b; /* Slate 800 */
-  --color-accent: #cda153; /* Subtle Gold */
+  /* Light Theme overrides */
+  --color-brand-900: #ffffff; 
+  --color-brand-800: #f8fafc; 
+  --color-accent: #b48530; /* Darker Gold for visibility on white */
+
+  /* Invert core colors */
+  --color-white: #0f172a; /* text-white becomes dark slate */
+  --color-black: #ffffff;
+  
+  /* Invert grays */
+  --color-gray-900: #f8fafc;
+  --color-gray-800: #f1f5f9; /* Card bg */
+  --color-gray-700: #e2e8f0; /* Borders */
+  --color-gray-600: #cbd5e1; 
+  --color-gray-500: #64748b; 
+  --color-gray-400: #475569; /* Subtitle / secondary text */
+  --color-gray-300: #334155; /* Body text */
+  --color-gray-200: #1e293b; /* Darker */
+  --color-gray-100: #0f172a; /* Darkest */
+
+  /* Specific accents for gradients */
+  --color-yellow-200: #d97706;
+  --color-blue-400: #2563eb;
+  --color-blue-500: #1d4ed8;
 }
 
 html {
@@ -19,18 +40,31 @@ html {
 }
 
 @media print {
-  body * {
-    display: none !important;
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
-  body::before {
-    content: "CONTEÚDO CONFIDENCIAL - IMPRESSÃO E REPRODUÇÃO PROIBIDAS";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    font-size: 24px;
-    font-family: sans-serif;
-    color: #000;
+
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  section {
+    page-break-after: always;
+    break-after: page;
+    min-height: 100vh !important;
+    height: auto !important;
+  }
+
+  /* Força cores claras no menu e no conteúdo para impressão */
+  header, header a, header button, header svg, nav a {
+    color: #0f172a !important;
+  }
+
+  /* Remove margens extras da impressora para melhor enquadramento */
+  @page {
+    margin: 0;
+    size: 16in 9in; /* Define uma proporção similar a uma tela widescreen para o PDF */
   }
 }

@@ -18,29 +18,30 @@ import { Newsflow } from './components/Newsflow';
 import { Valuation } from './components/Valuation';
 import { AreaTable } from './components/AreaTable';
 import { Footer } from './components/Footer';
-import { SecurityLayer } from './components/SecurityLayer';
+import { PinGate } from './components/PinGate';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-brand-900 text-white font-sans selection:bg-accent selection:text-brand-900">
-      <SecurityLayer />
-      <Header />
-      <main>
-        <Hero />
-        <Overview />
-        <Opportunity />
-        <Phases />
-        <Phase1Detail />
-        <Phase2Detail />
-        <Masterplan />
-        <PousoAlegre />
-        <FinancialThesis />
-        <CapitalStructure />
-        <Valuation />
-        <Newsflow />
-        <AreaTable />
-      </main>
-      <Footer />
-    </div>
+    <PinGate>
+      <div className="min-h-screen bg-brand-900 text-white font-sans selection:bg-accent selection:text-brand-900">
+        <Header />
+        <main>
+          <Hero />
+          <Overview />
+          <Opportunity />
+          <CapitalStructure />
+          <Phases />
+          <Phase1Detail />
+          <Phase2Detail />
+          <Masterplan />
+          <PousoAlegre />
+          <FinancialThesis />
+          <Valuation />
+          <Newsflow />
+          <AreaTable />
+        </main>
+        <Footer />
+      </div>
+    </PinGate>
   );
 }

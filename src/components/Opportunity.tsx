@@ -41,7 +41,7 @@ export function Opportunity() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-700 aspect-[4/3] group">
               <img 
-                src="/clia1.png" 
+                src={`${import.meta.env.BASE_URL}clia1.png`} 
                 alt="CLIA Pouso Alegre - Oportunidade" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90"
               />

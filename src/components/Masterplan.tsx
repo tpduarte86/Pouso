@@ -29,7 +29,7 @@ export function Masterplan() {
           >
             <div className="rounded-2xl overflow-hidden border border-gray-700 shadow-2xl relative aspect-[4/3] bg-brand-800 flex items-center justify-center p-2">
               <img 
-                src="/Masterplan hoje-Fase1e2.png" 
+                src={`${import.meta.env.BASE_URL}Masterplan hoje-Fase1e2.png`} 
                 alt="Masterplan Atual - Fases 1 e 2" 
                 className="w-full h-full object-contain"
               />
@@ -57,7 +57,7 @@ export function Masterplan() {
           >
             <div className="rounded-2xl overflow-hidden border border-gray-700 shadow-2xl relative aspect-[4/3] bg-brand-800 flex items-center justify-center p-2">
               <img 
-                src="/MasterplanFase3.png" 
+                src={`${import.meta.env.BASE_URL}MasterplanFase3.png`} 
                 alt="Masterplan Expansão - Fase 3" 
                 className="w-full h-full object-contain"
               />

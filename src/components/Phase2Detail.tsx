@@ -17,7 +17,7 @@ export function Phase2Detail() {
             {/* Visual element simulating the aerial view / masterplan extension */}
             <div className="rounded-2xl overflow-hidden border border-gray-700 shadow-2xl relative aspect-[4/3] bg-brand-800 flex items-center justify-center">
               <img 
-                src="/cliafase2.png" 
+                src={`${import.meta.env.BASE_URL}cliafase2.png`} 
                 alt="Interior Fase 2 em obras" 
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
               />
@@ -45,7 +45,7 @@ export function Phase2Detail() {
               </div>
               <div className="rounded-xl overflow-hidden border border-gray-700 shadow-xl relative aspect-square bg-brand-800">
                 <img 
-                  src="/clia2.png" 
+                  src={`${import.meta.env.BASE_URL}clia2.png`} 
                   alt="Vista aérea de obras / terreno e galpões" 
                   className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-luminosity"
                 />

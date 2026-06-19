@@ -41,7 +41,7 @@ export function CapitalStructure() {
                     <Wallet className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl text-white font-medium">Opção A – Aquisição Secundária</h3>
+                    <h3 className="text-2xl text-white font-medium">Opção A – Aquisição das áreas performadas</h3>
                     <p className="text-accent text-sm font-medium">Foco em Renda Imediata</p>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ export function CapitalStructure() {
              {/* Tabela Opção A */}
              <div className="bg-gray-800/80 p-6 md:p-10 border-t border-gray-700">
                 <h4 className="text-white font-medium mb-4 flex items-center gap-2">
-                   Métricas da Aquisição Secundária (Fase 1)
+                   Métricas da Aquisição das áreas performadas (Fase 1)
                 </h4>
                 <div className="overflow-x-auto">
                     <table className="w-full text-left text-sm border-collapse">
