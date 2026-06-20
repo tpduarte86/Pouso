@@ -8,7 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
           
           <div className="max-w-xs">
-            <a href="#home" className="flex items-center gap-2 mb-6">
+            <a href="https://octis.com.br" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mb-6">
               <Octagon className="w-6 h-6 text-accent" />
               <span className="font-serif text-xl font-semibold tracking-wide text-white">
                 OCTIS<span className="text-accent">.</span>

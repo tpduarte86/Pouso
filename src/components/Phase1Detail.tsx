@@ -24,7 +24,7 @@ export function Phase1Detail() {
             
             <p className="text-gray-300 text-lg leading-relaxed mb-8 font-light">
               Entregue e inaugurada ao final de <strong>novembro de 2025</strong>, a primeira fase da estrutura 
-              foi desenhada integralmente para abrigar a operação do CLIA e suas estruturas alfandegadas de controle.
+              foi desenhada integralmente para abrigar a operação do CLIA e suas estruturas alfandegadas de controle, possuindo contrato de locação em vigor até o ano de 2045.
             </p>
 
             <div className="space-y-8 mb-10">

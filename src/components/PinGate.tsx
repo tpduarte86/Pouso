@@ -31,7 +31,7 @@ export function PinGate({ children }: { children: React.ReactNode }) {
           
           <h2 className="text-2xl font-bold text-center text-white mb-2">Acesso Restrito</h2>
           <p className="text-gray-400 text-center mb-8 text-sm px-4">
-            Este material é confidencial. Insira o PIN para visualizar.
+            A apresentação é confidencial e destina-se apenas à pessoa que recebeu o e-mail. Insira o PIN para visualizar.
           </p>
 
           <form onSubmit={handleSubmit} className="w-full space-y-6">

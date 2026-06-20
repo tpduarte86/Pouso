@@ -67,10 +67,10 @@ export function Phase2Detail() {
             className="order-1 xl:order-2"
           >
             <span className="text-accent text-sm uppercase tracking-widest font-medium mb-3 block">Próximos Passos</span>
-            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">Fase 2: Ampliação</h2>
+            <h2 className="text-4xl md:text-5xl font-serif text-white mb-6">Fase 2: Ampliação Imediata</h2>
             
             <p className="text-gray-300 text-lg leading-relaxed mb-10 font-light">
-              Em fase avançada e reta final de entrega, a expansão do empreendimento mantém rigorosamente a mesma 
+              Em fase avançada e próxima da entrega, a expansão do empreendimento mantém rigorosamente a mesma 
               qualidade arquitetônica e estrutural da etapa pioneira.
             </p>
 

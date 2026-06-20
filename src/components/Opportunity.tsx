@@ -24,7 +24,7 @@ export function Opportunity() {
             
             <div className="prose prose-invert prose-lg text-gray-300 font-light leading-relaxed">
               <p>
-                A oportunidade consiste no <strong>aporte de capital e/ou aquisição de um ativo logístico built-to-suit de alto padrão</strong>, integralmente locado para o CLIA Pouso Alegre.
+                A oportunidade consiste no <strong>aporte de capital e/ou aquisição de um ativo logístico de alto padrão</strong>, integralmente locado para o CLIA Pouso Alegre.
               </p>
               <p>
                 Localizado no km 861 da Rodovia Fernão Dias (BR-381), o ativo posiciona-se como o <strong>principal hub aduaneiro e de comércio exterior do Sul de Minas Gerais</strong>, consolidando o atendimento industrial de uma região que hoje abriga grandes conglomerados globais, como XCMG, Midea e Iveco, operando de forma independente de incentivos fiscais temporários.
@@ -48,7 +48,7 @@ export function Opportunity() {
               <div className="absolute inset-0 bg-gradient-to-t from-brand-900/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-6 left-6 right-6">
                 <span className="inline-block px-3 py-1 bg-brand-900/80 backdrop-blur-md border border-gray-700 rounded text-xs font-medium text-white mb-2">
-                  Ativo Logístico Built-to-Suit
+                  Ativo Logístico
                 </span>
                 <h3 className="text-white text-lg font-medium drop-shadow-md">CLIA Pouso Alegre</h3>
               </div>

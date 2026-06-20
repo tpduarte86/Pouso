@@ -29,7 +29,7 @@ export function Hero() {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-300 font-light mb-10 max-w-2xl leading-relaxed drop-shadow-md">
-            Ativo logístico built-to-suit de alto padrão, operando como o principal hub aduaneiro e de comércio exterior do Sul de Minas Gerais.
+            Ativo logístico de alto padrão, operando como o principal hub aduaneiro e de comércio exterior do Sul de Minas Gerais.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

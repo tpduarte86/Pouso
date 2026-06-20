@@ -33,7 +33,7 @@ export function FinancialThesis() {
             <div className="relative z-10 pt-4 pl-6">
                <h3 className="text-xl text-white font-medium mb-4">O Negócio em uma Frase</h3>
                <p className="text-lg md:text-xl text-gray-300 font-light leading-relaxed italic">
-                  "Estamos oferecendo a oportunidade de comprar um imóvel que funciona como uma <span className="text-accent font-medium">alfândega privada</span> no coração industrial de Minas Gerais. O investidor entra com capital para expandir a estrutura, <span className="text-accent font-medium">recebe aluguel desde o primeiro dia</span>, e nós continuamos cuidando do dia a dia e da gestão imobiliária."
+                  "Estamos oferecendo a oportunidade de participar de um imóvel que funciona como uma <span className="text-accent font-medium">alfândega privada</span> no coração industrial de Minas Gerais. O investidor entra com capital para expandir a estrutura, <span className="text-accent font-medium">recebe aluguel desde o primeiro dia</span>, e nós continuamos cuidando do dia a dia e da gestão imobiliária."
                </p>
             </div>
           </motion.div>

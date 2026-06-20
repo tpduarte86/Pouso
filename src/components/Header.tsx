@@ -23,7 +23,6 @@ export function Header() {
     { name: 'Financeiro', href: '#investment-thesis' },
     { name: 'Estrutura', href: '#capital-structure' },
     { name: 'Valuation', href: '#valuation' },
-    { name: 'Newsflow', href: '#newsflow' },
     { name: 'Áreas', href: '#areas' },
   ];
 
@@ -34,7 +33,7 @@ export function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
-        <a href="#home" className="flex items-center gap-2 group">
+        <a href="https://octis.com.br" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 group">
           <Octagon className="w-8 h-8 text-accent transition-transform group-hover:scale-105" />
           <span className="font-serif text-2xl font-semibold tracking-wide text-white">
             OCTIS<span className="text-accent">.</span>

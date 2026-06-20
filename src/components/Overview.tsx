@@ -17,7 +17,7 @@ export function Overview() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <p className="text-gray-300 text-lg leading-relaxed mb-10 font-light">
-                Complexo logístico e industrial alfandegado, em fase de desenvolvimento modular. 
+                Complexo logístico e industrial alfandegado, operacional e em ampliação. 
                 Estrategicamente posicionado no principal eixo econômico do Sul de Minas Gerais, o projeto 
                 diferencia-se por sua vocação aduaneira, capacidade masterplan de expansão e foco em operações de alto valor agregado.
               </p>
@@ -57,7 +57,7 @@ export function Overview() {
                 <TrendingUp className="w-7 h-7 text-accent mb-4" />
                 <h3 className="text-white text-xl font-medium mb-3">Dinâmica de Mercado</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  A região apresenta forte absorção por meio de desenvolvimentos sob medida (Built-to-Suit) atrelados a contratos atípicos de longo prazo. A métrica atual entre elevados custos construtivos e tickets de locação restringe o surgimento de empreendimentos puramente especulativos, blindando ativos já posicionados.
+                  A região apresenta forte absorção por meio de desenvolvimentos sob medida atrelados a contratos atípicos de longo prazo. A métrica atual entre elevados custos construtivos e tickets de locação restringe o surgimento de empreendimentos puramente especulativos, blindando ativos já posicionados.
                 </p>
               </div>
             </div>

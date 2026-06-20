@@ -31,7 +31,7 @@ export function Phases() {
                 <span className="text-accent text-sm font-bold">17.989,77 m²</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Módulo 100% locado via BTS estruturado para o <strong>CLIA</strong> (Centro Logístico e Industrial Aduaneiro). 
+                Módulo 100% locado para o <strong>CLIA</strong> (Centro Logístico e Industrial Aduaneiro). 
                 A infraestrutura suporta operações aduaneiras de importação/exportação da Receita Federal e inclui áreas administrativas, pátios de movimentação e dupla câmara fria (certificação Anvisa) para cadeia farmacêutica.
               </p>
             </div>
@@ -41,7 +41,7 @@ export function Phases() {
                 <Clock className="w-6 h-6 text-blue-400" />
               </div>
               <span className="text-xs font-mono text-gray-400 tracking-wider uppercase mb-3 block border-s-2 border-blue-500/50 ps-3">Obras (1º Sem. 2026)</span>
-              <h3 className="text-white text-2xl font-medium mb-4">Fase 2: Reta Final</h3>
+              <h3 className="text-white text-2xl font-medium mb-4">Fase 2: Ampliação Imediata</h3>
               <div className="flex items-center gap-2 mb-4 bg-brand-900 border border-gray-700 w-fit px-3 py-1 rounded-full">
                 <span className="text-gray-400 text-xs font-medium">ABL:</span>
                 <span className="text-blue-400 text-sm font-bold">27.665,00 m²</span>

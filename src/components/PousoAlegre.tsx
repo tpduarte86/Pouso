@@ -162,7 +162,83 @@ export function PousoAlegre() {
                 </div>
               </div>
             </motion.div>
+          </div>
+        </div>
 
+        {/* Newsflow moved to Pouso Alegre */}
+        <div className="mt-20 border-t border-gray-800 pt-16">
+          <div className="mb-12">
+            <span className="text-accent text-sm uppercase tracking-widest font-medium mb-2 block">Mercado & Perspectivas</span>
+            <h3 className="text-3xl font-serif text-white">Newsflow Positivo</h3>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            {/* Card Notícia 1 */}
+            <motion.a 
+              href="https://diariodocomercio.com.br/economia/pouso-alegre-armazem-refrigerado/"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="group block bg-brand-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-accent/50 transition-all duration-300 shadow-xl hover:shadow-accent/5 relative"
+            >
+              <div className="h-48 bg-gray-800 relative overflow-hidden">
+                 <img 
+                  src={`${import.meta.env.BASE_URL}fulwood.jpeg`} 
+                  alt="Galpão Logístico Fulwood" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-60 mix-blend-luminosity"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-900 via-transparent to-transparent"></div>
+              </div>
+              
+              <div className="p-8">
+                <h4 className="text-xl md:text-2xl font-serif text-white mb-4 group-hover:text-accent transition-colors">
+                  Fulwood firma locação com Iveco e Mercado Livre
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                  Reafirmando a força da região, gigantes como Iveco e Mercado Livre iniciaram operações nas instalações da Fulwood em Pouso Alegre. O movimento deve gerar mais de 1.500 empregos diretos e atesta a liquidez da praça para propriedades logísticas Triple A.
+                </p>
+                <div className="flex items-center text-accent text-sm font-medium group-hover:translate-x-2 transition-transform">
+                  Ler matéria completa &rarr;
+                </div>
+              </div>
+            </motion.a>
+
+            {/* Card Notícia 2 */}
+            <motion.a 
+              href="https://diariodocomercio.com.br/economia/pouso-alegre-armazem-refrigerado/"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="group block bg-brand-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-accent/50 transition-all duration-300 shadow-xl hover:shadow-accent/5 relative"
+            >
+              <div className="h-48 bg-gray-800 relative overflow-hidden">
+                 <img 
+                  src="https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=2070&auto=format&fit=crop" 
+                  alt="Armazém Refrigerado Pouso Alegre" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-60 mix-blend-luminosity"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-900 via-transparent to-transparent"></div>
+              </div>
+              
+              <div className="p-8">
+                <h4 className="text-xl md:text-2xl font-serif text-white mb-4 group-hover:text-white/80 transition-colors">
+                  Pouso Alegre ganha novo armazém refrigerado
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                  A cidade continua a atrair grandes empreendimentos logísticos. O novo armazém refrigerado chega para atender a crescente demanda da região, solidificando Pouso Alegre como um dos principais hubs do interior.
+                </p>
+                <div className="flex items-center text-accent text-sm font-medium group-hover:translate-x-2 transition-transform">
+                  Ler matéria completa &rarr;
+                </div>
+              </div>
+            </motion.a>
           </div>
         </div>
 

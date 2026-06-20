@@ -14,7 +14,6 @@ import { Masterplan } from './components/Masterplan';
 import { PousoAlegre } from './components/PousoAlegre';
 import { FinancialThesis } from './components/FinancialThesis';
 import { CapitalStructure } from './components/CapitalStructure';
-import { Newsflow } from './components/Newsflow';
 import { Valuation } from './components/Valuation';
 import { AreaTable } from './components/AreaTable';
 import { Footer } from './components/Footer';
@@ -29,15 +28,14 @@ export default function App() {
           <Hero />
           <Overview />
           <Opportunity />
-          <CapitalStructure />
           <Phases />
           <Phase1Detail />
           <Phase2Detail />
           <Masterplan />
           <PousoAlegre />
           <FinancialThesis />
+          <CapitalStructure />
           <Valuation />
-          <Newsflow />
           <AreaTable />
         </main>
         <Footer />
