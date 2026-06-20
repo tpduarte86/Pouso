@@ -18,7 +18,7 @@ export function CapitalStructure() {
               Estruturação de Capital
             </h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto font-light">
-              Duas alternativas de alocação estratégica adaptadas ao perfil de risco/retorno do Fundo.
+              Duas alternativas de alocação adaptadas ao perfil de risco/retorno do Fundo.
             </p>
           </motion.div>
         </div>

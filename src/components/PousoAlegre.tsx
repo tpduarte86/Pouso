@@ -56,7 +56,7 @@ export function PousoAlegre() {
               </div>
               <h3 className="text-white text-xl font-medium mb-4">Resiliência e Capital Fixo</h3>
               <p className="text-gray-400 text-sm leading-relaxed text-balance">
-                Diferente do varejo volátil, plantas industriais e logísticas estratégicas exigem maquinário pesado e infraestrutura dedicada de alto custo, ancorando essas empresas à região de forma perene e estável.
+                Diferente do varejo volátil, plantas industriais e logísticas exigem maquinário pesado e infraestrutura dedicada de alto custo, ancorando essas empresas à região de forma perene e estável.
               </p>
             </motion.div>
 
@@ -98,7 +98,7 @@ export function PousoAlegre() {
                 <div className="flex gap-4">
                   <MapPin className="w-8 h-8 text-accent shrink-0" />
                   <div>
-                    <h4 className="text-white font-medium text-lg mb-2">Entroncamento Estratégico</h4>
+                    <h4 className="text-white font-medium text-lg mb-2">Entroncamento</h4>
                     <p className="text-gray-400 text-sm">
                       Privilegiada pela intersecção rodoferroviária da <strong>Fernão Dias (BR-381) com a BR-459</strong>, fluindo logística direta para os principais mercados consumidores e ramificações de SP, RJ e Belo Horizonte.
                     </p>

@@ -27,7 +27,7 @@ export function Overview() {
                   <MapPin className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="text-white font-medium text-xl mb-1">Localização Estratégica</h3>
+                  <h3 className="text-white font-medium text-xl mb-1">Localização</h3>
                   <p className="text-gray-400">Rodovia Fernão Dias (BR-381), altura do km 861 <br/> Pouso Alegre, Minas Gerais</p>
                 </div>
               </div>
