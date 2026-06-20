@@ -71,7 +71,7 @@ export function Masterplan() {
                 <h3 className="text-white font-medium text-xl">Expansão e Vocação (Fase 3+)</h3>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Perspectiva global do Masterplan, evidenciando os blocos delineados para expansão futura. Estes quadrantes (destacados no layout) suportam o adensamento construtivo do parque, pavimentando trajeto arquitetônico para mais rodadas de galpões modulares de alto padrão, capturando o upside do mercado local.
+                Perspectiva global do Masterplan, evidenciando os blocos delineados para expansão futura (blocos 5 a 8). Estes quadrantes (destacados no layout) suportam o adensamento construtivo do parque, pavimentando trajeto arquitetônico para mais rodadas de galpões modulares de alto padrão, capturando o upside do mercado local.
               </p>
             </div>
           </motion.div>

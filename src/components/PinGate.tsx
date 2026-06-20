@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import { Lock } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
 
 export function PinGate({ children }: { children: React.ReactNode }) {
   const [pin, setPin] = useState('');
+  const [email, setEmail] = useState('');
   const [error, setError] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [state, handleSubmit] = useForm('xwvdevzy');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const customSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (pin === '0492') {
+      await handleSubmit(e);
       setIsAuthenticated(true);
       setError(false);
     } else {
@@ -17,7 +21,7 @@ export function PinGate({ children }: { children: React.ReactNode }) {
     }
   };
 
-  if (isAuthenticated) {
+  if (isAuthenticated || state.succeeded) {
     return <>{children}</>;
   }
 
@@ -34,12 +38,25 @@ export function PinGate({ children }: { children: React.ReactNode }) {
             A apresentação é confidencial e destina-se apenas à pessoa que recebeu o e-mail. Insira o PIN para visualizar.
           </p>
 
-          <form onSubmit={handleSubmit} className="w-full space-y-6">
+          <form onSubmit={customSubmit} className="w-full space-y-6">
             <div>
+              <input
+                type="email"
+                name="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="w-full text-center text-xl font-medium py-4 px-4 bg-brand-800 text-white border border-gray-700 rounded-xl outline-none transition-all placeholder:text-gray-600 focus:border-accent focus:ring-4 focus:ring-accent/10 mb-4"
+                placeholder="Seu e-mail"
+              />
+              <ValidationError prefix="Email" field="email" errors={state.errors} />
+              <input type="hidden" name="horario" value={new Date().toLocaleString('pt-BR')} />
+
               <input
                 type="password"
                 inputMode="numeric"
                 maxLength={4}
+                required
                 value={pin}
                 onChange={(e) => {
                   setPin(e.target.value.replace(/\D/g, ''));
@@ -50,7 +67,6 @@ export function PinGate({ children }: { children: React.ReactNode }) {
                 }`}
                 style={{ letterSpacing: pin.length > 0 ? '0.5em' : 'normal' }}
                 placeholder="PIN"
-                autoFocus
               />
               {error && (
                 <p className="text-red-500/90 text-sm text-center mt-3 font-medium">
@@ -61,9 +77,10 @@ export function PinGate({ children }: { children: React.ReactNode }) {
 
             <button
               type="submit"
-              className="w-full bg-accent hover:bg-accent/90 text-white font-medium py-4 rounded-xl transition-all shadow-lg hover:shadow-accent/20 active:scale-[0.98]"
+              disabled={state.submitting}
+              className="w-full bg-accent hover:bg-accent/90 text-white font-medium py-4 rounded-xl transition-all shadow-lg hover:shadow-accent/20 active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed"
             >
-              Acessar Apresentação
+              {state.submitting ? 'Acessando...' : 'Acessar Apresentação'}
             </button>
           </form>
         </div>
