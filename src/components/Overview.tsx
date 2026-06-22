@@ -22,13 +22,46 @@ export function Overview() {
                 diferencia-se por sua vocação aduaneira, capacidade masterplan de expansão e foco em operações de alto valor agregado.
               </p>
               
-              <div className="flex items-start gap-4 mb-8">
+              <div className="flex items-start gap-4 mb-4">
                 <div className="bg-brand-900 p-3 rounded-md border border-gray-700 shrink-0">
                   <MapPin className="w-6 h-6 text-accent" />
                 </div>
                 <div>
                   <h3 className="text-white font-medium text-xl mb-1">Localização</h3>
                   <p className="text-gray-400">Rodovia Fernão Dias (BR-381), altura do km 861 <br/> Pouso Alegre, Minas Gerais</p>
+                </div>
+              </div>
+
+              {/* Progress Bar Distances */}
+              <div className="mt-8 mb-10 pt-8 border-t border-gray-800">
+                <h4 className="text-xs font-mono uppercase tracking-widest text-gray-500 mb-8 block">Distâncias pela Rodovia Fernão Dias</h4>
+                <div className="px-1 sm:px-4">
+                  <div className="relative w-full h-16">
+                    {/* Line */}
+                    <div className="absolute top-1.5 left-0 right-0 h-px bg-gray-800 z-0"></div>
+                    <div className="absolute top-1.5 left-0 w-full h-px bg-gradient-to-r from-gray-500 via-accent/70 to-accent z-0"></div>
+                    
+                    {/* SP */}
+                    <div className="absolute top-0 left-0 flex flex-col items-start -translate-x-1.5 z-10">
+                      <div className="w-3 h-3 rounded-full bg-gray-400 ring-4 ring-brand-800 mb-3"></div>
+                      <span className="text-gray-300 font-medium text-sm">São Paulo</span>
+                      <span className="text-gray-500 text-xs font-mono mt-1 whitespace-nowrap">0 km</span>
+                    </div>
+                    
+                    {/* Extrema */}
+                    <div className="absolute top-0 left-[58%] flex flex-col items-center -translate-x-1/2 z-10">
+                      <div className="w-3 h-3 rounded-full bg-accent/80 ring-4 ring-brand-800 mb-3"></div>
+                      <span className="text-white font-medium text-sm">Extrema</span>
+                      <span className="text-gray-400 text-xs font-mono mt-1 whitespace-nowrap">100 km</span>
+                    </div>
+                    
+                    {/* Pouso Alegre */}
+                    <div className="absolute top-0 right-0 flex flex-col items-end translate-x-1.5 z-10">
+                      <div className="w-3.5 h-3.5 rounded-full border-[3px] border-accent bg-brand-800 mb-2.5 shadow-[0_0_12px_rgba(180,133,48,0.6)] box-content"></div>
+                      <span className="text-accent font-medium text-sm">Pouso Alegre</span>
+                      <span className="text-accent/80 text-xs font-mono mt-1 whitespace-nowrap">+70 km</span>
+                    </div>
+                  </div>
                 </div>
               </div>
 
