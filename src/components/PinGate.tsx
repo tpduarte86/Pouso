@@ -12,7 +12,9 @@ export function PinGate({ children }: { children: React.ReactNode }) {
   const customSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (pin === '0492') {
-      await handleSubmit(e);
+      if (email !== 'teste@octis.com.br') {
+        await handleSubmit(e);
+      }
       setIsAuthenticated(true);
       setError(false);
     } else {
