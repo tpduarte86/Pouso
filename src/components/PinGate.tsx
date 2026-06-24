@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Lock } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
+import { usePostHog } from '@posthog/react';
 
 export function PinGate({ children }: { children: React.ReactNode }) {
   const [pin, setPin] = useState('');
@@ -8,6 +9,7 @@ export function PinGate({ children }: { children: React.ReactNode }) {
   const [error, setError] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [state, handleSubmit] = useForm('xwvdevzy');
+  const posthog = usePostHog();
 
   const customSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -15,6 +17,14 @@ export function PinGate({ children }: { children: React.ReactNode }) {
       if (email !== 'teste@octis.com.br') {
         await handleSubmit(e);
       }
+      
+      // Identify user in PostHog
+      if (posthog) {
+        posthog.identify(email, {
+          email: email
+        });
+      }
+
       setIsAuthenticated(true);
       setError(false);
     } else {

@@ -72,7 +72,7 @@ export function PousoAlegre() {
               </div>
               <h3 className="text-white text-xl font-medium mb-4">Rede Autossustentável</h3>
               <p className="text-gray-400 text-sm leading-relaxed text-balance">
-                A gravidade natural destas grandes indústrias atrai e retroalimenta uma profunda teia de fornecedores de ponta, ferramentarias e prestadores de serviço críticos, compondo um grande ecossistema produtivo.
+                As grandes indústrias atraem e retroalimentam uma teia de fornecedores de ponta, ferramentarias e prestadores de serviço, compondo um grande ecossistema produtivo.
               </p>
             </motion.div>
           </div>
