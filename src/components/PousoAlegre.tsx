@@ -172,7 +172,42 @@ export function PousoAlegre() {
             <h3 className="text-3xl font-serif text-white">Newsflow Positivo</h3>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Card Video */}
+            <motion.a 
+              href="https://g1.globo.com/mg/sul-de-minas/videos-jornal-da-eptv-2-edicao/video/centro-logistico-de-pouso-alegre-triplica-de-tamanho-e-movimenta-us-250-milhoes-em-2026-14651177.ghtml"
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6 }}
+              className="group block bg-brand-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-accent/50 transition-all duration-300 shadow-xl hover:shadow-accent/5 relative flex flex-col"
+            >
+              <div className="h-48 bg-gray-800 relative overflow-hidden">
+                <img 
+                  src="https://s02.video.glbimg.com/x720/14651177.jpg" 
+                  alt="G1 Pouso Alegre" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-60 mix-blend-luminosity"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-900 via-transparent to-transparent"></div>
+              </div>
+              <div className="p-6 flex flex-col flex-grow">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="px-2 py-1 bg-red-600 text-white text-[10px] font-bold rounded uppercase tracking-wider">G1 Sul de Minas</span>
+                </div>
+                <h4 className="text-lg font-serif text-white mb-3 group-hover:text-accent transition-colors">
+                  Centro logístico triplica de tamanho e movimenta US$ 250 milhões
+                </h4>
+                <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-grow">
+                  Reportagem da EPTV destaca a expansão das operações logísticas em Pouso Alegre, reforçando a posição estratégica e aumento na demanda.
+                </p>
+                <div className="flex items-center text-accent text-sm font-medium group-hover:translate-x-2 transition-transform">
+                  Ler matéria &rarr;
+                </div>
+              </div>
+            </motion.a>
+
             {/* Card Notícia 1 */}
             <motion.a 
               href="https://diariodocomercio.com.br/economia/pouso-alegre-armazem-refrigerado/"
@@ -182,7 +217,7 @@ export function PousoAlegre() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="group block bg-brand-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-accent/50 transition-all duration-300 shadow-xl hover:shadow-accent/5 relative"
+              className="group block bg-brand-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-accent/50 transition-all duration-300 shadow-xl hover:shadow-accent/5 relative flex flex-col"
             >
               <div className="h-48 bg-gray-800 relative overflow-hidden">
                  <img 
@@ -193,15 +228,18 @@ export function PousoAlegre() {
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-900 via-transparent to-transparent"></div>
               </div>
               
-              <div className="p-8">
-                <h4 className="text-xl md:text-2xl font-serif text-white mb-4 group-hover:text-accent transition-colors">
+              <div className="p-6 flex flex-col flex-grow">
+                <div className="flex items-center gap-3 mb-4 opacity-0">
+                  <span className="px-2 py-1 bg-transparent text-transparent text-[10px] font-bold rounded uppercase tracking-wider">.</span>
+                </div>
+                <h4 className="text-lg font-serif text-white mb-3 group-hover:text-accent transition-colors">
                   Fulwood firma locação com Iveco e Mercado Livre
                 </h4>
-                <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                  Reafirmando a força da região, gigantes como Iveco e Mercado Livre iniciaram operações nas instalações da Fulwood em Pouso Alegre. O movimento deve gerar mais de 1.500 empregos diretos e atesta a liquidez da praça para propriedades logísticas Triple A.
+                <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-grow">
+                  Gigantes como Iveco e Mercado Livre iniciaram operações nas instalações da Fulwood em Pouso Alegre, atestando a liquidez Triple A da região.
                 </p>
                 <div className="flex items-center text-accent text-sm font-medium group-hover:translate-x-2 transition-transform">
-                  Ler matéria completa &rarr;
+                  Ler matéria &rarr;
                 </div>
               </div>
             </motion.a>
@@ -215,7 +253,7 @@ export function PousoAlegre() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="group block bg-brand-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-accent/50 transition-all duration-300 shadow-xl hover:shadow-accent/5 relative"
+              className="group block bg-brand-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-accent/50 transition-all duration-300 shadow-xl hover:shadow-accent/5 relative flex flex-col"
             >
               <div className="h-48 bg-gray-800 relative overflow-hidden">
                  <img 
@@ -227,15 +265,18 @@ export function PousoAlegre() {
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-900 via-transparent to-transparent"></div>
               </div>
               
-              <div className="p-8">
-                <h4 className="text-xl md:text-2xl font-serif text-white mb-4 group-hover:text-white/80 transition-colors">
+              <div className="p-6 flex flex-col flex-grow">
+                 <div className="flex items-center gap-3 mb-4 opacity-0">
+                  <span className="px-2 py-1 bg-transparent text-transparent text-[10px] font-bold rounded uppercase tracking-wider">.</span>
+                </div>
+                <h4 className="text-lg font-serif text-white mb-3 group-hover:text-white/80 transition-colors">
                   Pouso Alegre ganha novo armazém refrigerado
                 </h4>
-                <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                  A cidade continua a atrair grandes empreendimentos logísticos. O novo armazém refrigerado chega para atender a crescente demanda da região, solidificando Pouso Alegre como um dos principais hubs do interior.
+                <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-grow">
+                  A cidade continua a atrair grandes empreendimentos logísticos. O novo armazém refrigerado chega para alinhar alta demanda.
                 </p>
                 <div className="flex items-center text-accent text-sm font-medium group-hover:translate-x-2 transition-transform">
-                  Ler matéria completa &rarr;
+                  Ler matéria &rarr;
                 </div>
               </div>
             </motion.a>
