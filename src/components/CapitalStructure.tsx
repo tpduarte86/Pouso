@@ -18,7 +18,7 @@ export function CapitalStructure() {
               Estruturação de Capital
             </h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto font-light">
-              Duas alternativas de alocação adaptadas ao perfil de risco/retorno do Fundo.
+              Dois deals de alocação estruturados: aquisição das áreas performadas e aporte primário para expansão.
             </p>
           </motion.div>
         </div>
@@ -41,8 +41,8 @@ export function CapitalStructure() {
                     <Wallet className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl text-white font-medium">Opção A – Aquisição das áreas performadas</h3>
-                    <p className="text-accent text-sm font-medium">Foco em Renda Imediata</p>
+                    <h3 className="text-2xl text-white font-medium">Deal A – Aquisição das áreas performadas</h3>
+                    <p className="text-accent text-sm font-medium">Fase 1 e Fase 2</p>
                   </div>
                 </div>
 
@@ -51,27 +51,27 @@ export function CapitalStructure() {
                     <Lightbulb className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-white block mb-1">Tese de Investimento:</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">Alocação de capital focada puramente em tijolo performado, mitigando risco de engenharia e trazendo dividendo imediato para a base de cotistas.</span>
+                      <span className="text-gray-400 font-light leading-relaxed text-sm">Aquisição de 40% das Fases 1 e 2. Foco em tijolo com baixo risco de engenharia e dividendo imediato.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
                     <Building className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-white block mb-1">Estrutura Propriedade:</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">Aquisição de 100% da Fase 1 operacional via transação secundária (Cash-Out).</span>
+                      <strong className="text-white block mb-1">Status das Fases:</strong>
+                      <span className="text-gray-400 font-light leading-relaxed text-sm">A Fase 1 encontra-se 100% locada (contrato atípico até 2045). A Fase 2 será entregue ainda em 2026 e já está em avançada negociação de locação.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
                     <ArrowRight className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-white block mb-1">Pipeline de Crescimento:</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">Garantia de direito de preferência (Right of First Refusal) e opção de compra para as Fases 2, 3 e 4 à medida que forem estabilizadas pelo desenvolvedor.</span>
+                      <strong className="text-white block mb-1">Renda Mínima Garantida:</strong>
+                      <span className="text-gray-400 font-light leading-relaxed text-sm">O desenvolvedor fornecerá Renda Mínima Garantida (RMG) até a efetiva locação da Fase 2, mitigando o risco de vacância inicial.</span>
                     </div>
                   </li>
                 </ul>
 
                 <div className="bg-gray-800/60 rounded-2xl p-6 border border-gray-700/50 flex flex-col items-center justify-center mb-8">
-                  <span className="text-gray-400 text-sm font-medium mb-1 uppercase tracking-wider">Cap Rate de Entrada (Fase 1)</span>
+                  <span className="text-gray-400 text-sm font-medium mb-1 uppercase tracking-wider">Cap Rate de Entrada</span>
                   <span className="text-4xl md:text-5xl font-bold text-accent">10,00%</span>
                 </div>
 
@@ -80,7 +80,7 @@ export function CapitalStructure() {
              {/* Tabela Opção A */}
              <div className="bg-gray-800/80 p-6 md:p-10 border-t border-gray-700">
                 <h4 className="text-white font-medium mb-4 flex items-center gap-2">
-                   Métricas da Aquisição das áreas performadas (Fase 1)
+                   Métricas da Aquisição (40% Fases 1 e 2)
                 </h4>
                 <div className="overflow-x-auto">
                     <table className="w-full text-left text-sm border-collapse">
@@ -92,24 +92,24 @@ export function CapitalStructure() {
                         </thead>
                         <tbody className="text-gray-300">
                             <tr className="border-b border-gray-700/50">
-                                <td className="py-3">Valuation Alocado (Fase 1)</td>
-                                <td className="py-3 text-right">R$ 94.000.000</td>
+                                <td className="py-3">Valuation Alocado (40%)</td>
+                                <td className="py-3 text-right">R$ 87.500.000</td>
                             </tr>
                             <tr className="border-b border-gray-700/50">
-                                <td className="py-3">Receita Mensal Corrente (Fase 1)</td>
-                                <td className="py-3 text-right">R$ 783.000</td>
+                                <td className="py-3">Receita Mensal (Fase 1 + RMG Fase 2)</td>
+                                <td className="py-3 text-right">R$ 729.200</td>
                             </tr>
                             <tr className="border-b border-gray-700/50">
-                                <td className="py-3 font-medium text-white">NOI Anualizado Projetado</td>
-                                <td className="py-3 text-right font-medium text-white">R$ 9.396.000</td>
+                                <td className="py-3 font-medium text-white">NOI Anualizado Projetado (40%)</td>
+                                <td className="py-3 text-right font-medium text-white">R$ 8.750.400</td>
                             </tr>
                             <tr className="border-b border-gray-700/50">
-                                <td className="py-3 text-accent font-medium">Cap Rate de Entrada (Tijolo)</td>
+                                <td className="py-3 text-accent font-medium">Cap Rate de Entrada</td>
                                 <td className="py-3 text-right text-accent font-medium">10,00% ao ano</td>
                             </tr>
                             <tr>
-                                <td className="py-3">Risco de Engenharia / Obra</td>
-                                <td className="py-3 text-right text-gray-400">Zero (Ativo Performado)</td>
+                                <td className="py-3">Risco de Vacância Fase 2</td>
+                                <td className="py-3 text-right text-gray-400">Mitigado via RMG</td>
                             </tr>
                         </tbody>
                     </table>
@@ -133,8 +133,8 @@ export function CapitalStructure() {
                     <TrendingUp className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl text-white font-medium">Opção B – Aporte Primário</h3>
-                    <p className="text-accent text-sm font-medium">Foco em Ganho de Capital / Value-Add</p>
+                    <h3 className="text-2xl text-white font-medium">Deal B – Aporte Primário</h3>
+                    <p className="text-accent text-sm font-medium">Foco em Expansão</p>
                   </div>
                 </div>
 
@@ -143,21 +143,21 @@ export function CapitalStructure() {
                     <Lightbulb className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-white block mb-1">Tese de Investimento:</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">Injeção de recursos para o término da Fase 2 (90% concluída) e execução das Fases 3 e 4. Captura da arbitragem de valor do desenvolvimento imobiliário.</span>
+                      <span className="text-gray-400 font-light leading-relaxed text-sm">Injeção de recursos puramente para a execução das Fases 3 e 4. Captura da arbitragem de valor do desenvolvimento imobiliário em novas áreas.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
                     <Wallet className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-white block mb-1">Estrutura da Operação:</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">Aporte de R$ 164M via emissão primária direto no caixa da SPE (Cash-In). O proprietário original é diluído, mas permanece como Operating Partner (GP) cuidando da gestão.</span>
+                      <strong className="text-white block mb-1">Estrutura da Operação (Fases 3 e 4):</strong>
+                      <span className="text-gray-400 font-light leading-relaxed text-sm">O terreno entra na Sociedade (SPE) avaliado em R$ 40,2 milhões, enquanto o investidor aporta R$ 164,4 milhões para a execução integral das obras.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
                     <PieChart className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-white block mb-1">Parceria Societária:</strong>
-                      <span className="text-accent font-medium leading-relaxed text-base">38,29% de Equity para o FII / 61,71% para o Proprietário Atual.</span>
+                      <span className="text-accent font-medium leading-relaxed text-base">80,35% de Equity para o FII / 19,65% para o Proprietário Atual.</span>
                     </div>
                   </li>
                 </ul>
@@ -165,67 +165,46 @@ export function CapitalStructure() {
                 <div className="grid grid-cols-2 gap-4 mb-8">
                    <div className="bg-gray-800/60 rounded-2xl p-6 border border-gray-700/50 flex flex-col items-center justify-center text-center">
                      <span className="text-gray-400 text-sm font-medium mb-1 uppercase tracking-wider block">Target Yield on Cost</span>
-                     <span className="text-2xl md:text-3xl font-bold text-accent">11,30%</span>
+                     <span className="text-2xl md:text-3xl font-bold text-accent">12,98%</span>
                    </div>
                    <div className="bg-gray-800/60 rounded-2xl p-6 border border-gray-700/50 flex flex-col items-center justify-center text-center">
-                     <span className="text-gray-400 text-sm font-medium mb-1 uppercase tracking-wider block">TIR Estimada (Exit 8,5%)</span>
-                     <span className="text-2xl md:text-3xl font-bold text-accent">IPCA + 10,0%</span>
+                     <span className="text-gray-400 text-sm font-medium mb-1 uppercase tracking-wider block">TIR Nominal (All In)</span>
+                     <span className="text-2xl md:text-3xl font-bold text-accent">17,90% a.a.</span>
                    </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-                  <div className="bg-gray-800/40 p-4 rounded-xl border border-gray-700/50">
-                    <span className="block text-xs text-gray-500 mb-1 uppercase tracking-wider font-medium">Valuation Pre-Money</span>
-                    <span className="text-white font-medium text-lg">R$ 253,6 mi</span>
-                  </div>
-                  <div className="bg-gray-800/40 p-4 rounded-xl border border-gray-700/50">
-                    <span className="block text-xs text-gray-500 mb-1 uppercase tracking-wider font-medium">Valuation Post-Money</span>
-                    <span className="text-white font-medium text-lg">R$ 418,0 mi</span>
-                  </div>
-                  <div className="bg-gray-800/40 p-4 rounded-xl border border-gray-700/50">
-                    <span className="block text-xs text-gray-500 mb-1 uppercase tracking-wider font-medium">Exit Valuation</span>
-                    <span className="text-white font-medium text-lg">R$ 571,0 mi</span>
-                  </div>
                 </div>
 
              </div>
 
              {/* Tabela Opção B */}
              <div className="bg-gray-800/80 p-6 md:p-10 border-t border-gray-700">
-                <h4 className="text-white font-medium mb-4 flex items-center gap-2">
-                   Cronograma de Yields do Aporte Primário (R$ 164M)
+                <h4 className="text-white font-medium mb-6 flex items-center gap-2">
+                   Resumo Financeiro da Expansão (Fases 3 e 4)
                 </h4>
-                <div className="overflow-x-auto">
-                    <table className="w-full text-left text-sm border-collapse min-w-[500px]">
-                        <thead>
-                            <tr className="text-gray-400 border-b border-gray-700">
-                                <th className="pb-3 font-medium">Estágio do Ativo</th>
-                                <th className="pb-3 font-medium text-right">Receita Total SPE</th>
-                                <th className="pb-3 font-medium text-right">Fatia do FII (38,29%)</th>
-                                <th className="pb-3 font-medium text-right text-accent">Yield s/ Aporte</th>
-                            </tr>
-                        </thead>
-                        <tbody className="text-gray-300">
-                            <tr className="border-b border-gray-700/50">
-                                <td className="py-3">Fase 1 (Imediato)</td>
-                                <td className="py-3 text-right">R$ 783.000 /mês</td>
-                                <td className="py-3 text-right">R$ 299.811 /mês</td>
-                                <td className="py-3 text-right font-medium">2,19% a.a.</td>
-                            </tr>
-                            <tr className="border-b border-gray-700/50">
-                                <td className="py-3">Fase 1 + Fase 2 <span className="text-gray-500 text-xs block">Curto Prazo</span></td>
-                                <td className="py-3 text-right w-[110px]">R$ 1.823.000 /mês</td>
-                                <td className="py-3 text-right w-[110px]">R$ 698.027 /mês</td>
-                                <td className="py-3 text-right font-medium">5,11% a.a.</td>
-                            </tr>
-                            <tr>
-                                <td className="py-3 font-medium text-white">Fases 1 a 4 <span className="text-gray-500 text-xs block font-normal">Estabilizado</span></td>
-                                <td className="py-3 text-right font-medium text-white">R$ 4.023.000 /mês</td>
-                                <td className="py-3 text-right font-medium text-white">R$ 1.540.407 /mês</td>
-                                <td className="py-3 text-right text-accent font-bold">11,30% a.a.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="bg-gray-900/50 p-4 rounded-xl border border-gray-700/50">
+                        <span className="text-gray-400 text-xs uppercase tracking-wider block mb-1">Aporte do FII (Obras)</span>
+                        <span className="text-lg font-medium text-white">R$ 164,4 milhões</span>
+                    </div>
+                    <div className="bg-gray-900/50 p-4 rounded-xl border border-gray-700/50">
+                        <span className="text-gray-400 text-xs uppercase tracking-wider block mb-1">Valor do Terreno</span>
+                        <span className="text-lg font-medium text-white">R$ 40,2 milhões</span>
+                    </div>
+                    <div className="bg-gray-900/50 p-4 rounded-xl border border-gray-700/50">
+                        <span className="text-gray-400 text-xs uppercase tracking-wider block mb-1">Equity FII</span>
+                        <span className="text-lg font-medium text-white">80,35%</span>
+                    </div>
+                    <div className="bg-gray-900/50 p-4 rounded-xl border border-gray-700/50">
+                        <span className="text-gray-400 text-xs uppercase tracking-wider block mb-1">Yield on Cost Target</span>
+                        <span className="text-lg font-medium text-accent">12,98% a.a.</span>
+                    </div>
+                    <div className="bg-gray-900/50 p-4 rounded-xl border border-gray-700/50">
+                        <span className="text-gray-400 text-xs uppercase tracking-wider block mb-1">TIR Real Projetada</span>
+                        <span className="text-lg font-medium text-accent">12,28% a.a. + IPCA</span>
+                    </div>
+                    <div className="bg-gray-900/50 p-4 rounded-xl border border-gray-700/50">
+                        <span className="text-gray-400 text-xs uppercase tracking-wider block mb-1">TIR Nominal (IPCA 5%)</span>
+                        <span className="text-lg font-medium text-accent">17,90% a.a.</span>
+                    </div>
                 </div>
              </div>
           </motion.div>

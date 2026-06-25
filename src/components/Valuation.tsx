@@ -188,7 +188,7 @@ export function Valuation() {
                                 </tr>
                                 <tr className="border-b border-accent/20 hover:bg-white/5 transition-colors">
                                     <td className="py-3 font-medium text-sm text-accent">Yield on Cost Target</td>
-                                    <td className="py-3 text-right text-accent font-medium">12,65%</td>
+                                    <td className="py-3 text-right text-accent font-medium">12,98%</td>
                                 </tr>
                             </tbody>
                        </table>
@@ -198,14 +198,188 @@ export function Valuation() {
                <div className="mt-8 pt-8 border-t border-gray-700 flex flex-col md:flex-row gap-6 justify-between items-center bg-gray-800/50 p-6 rounded-2xl">
                     <div className="text-center md:text-left">
                          <span className="text-gray-400 text-sm font-medium block">Valuation do Empreendimento (Fases 3 e 4)</span>
-                         <span className="text-2xl text-white font-medium">R$ 212.486.400,00</span>
+                         <span className="text-2xl text-white font-medium">R$ 204.624.000,00</span>
                     </div>
                      <div className="h-px w-full md:h-12 md:w-px bg-gray-700"></div>
                      <div className="text-center md:text-right">
                          <span className="text-gray-400 text-sm font-medium block">Valuation Implícito do Terreno</span>
-                         <span className="text-2xl text-accent font-medium">R$ 48.062.400,00</span>
+                         <span className="text-2xl text-accent font-medium">R$ 40.200.000,00</span>
                     </div>
                </div>
+            </div>
+          </motion.div>
+
+          {/* Cashflow Table */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="mt-12 bg-brand-800 border border-gray-700 rounded-3xl overflow-hidden shadow-2xl"
+          >
+            <div className="bg-gray-800 px-6 py-4 border-b border-gray-700">
+               <h3 className="text-xl text-white font-medium">Cashflow do Empreendimento (Fases 3 e 4)</h3>
+            </div>
+            
+            <div className="p-0 overflow-x-auto">
+               <table className="w-full text-left border-collapse min-w-[1200px] text-sm">
+                  <thead>
+                      <tr className="bg-gray-800/50 text-gray-400 border-b border-gray-700">
+                          <th className="py-2 px-4 font-medium whitespace-nowrap">Ano</th>
+                          <th className="py-2 px-4 text-right font-medium">0</th>
+                          <th className="py-2 px-4 text-right font-medium">1</th>
+                          <th className="py-2 px-4 text-right font-medium">2</th>
+                          <th className="py-2 px-4 text-right font-medium">3</th>
+                          <th className="py-2 px-4 text-right font-medium">4</th>
+                          <th className="py-2 px-4 text-right font-medium">5</th>
+                          <th className="py-2 px-4 text-right font-medium">6</th>
+                          <th className="py-2 px-4 text-right font-medium">7</th>
+                          <th className="py-2 px-4 text-right font-medium">8</th>
+                          <th className="py-2 px-4 text-right font-medium">9</th>
+                          <th className="py-2 px-4 text-right font-medium">10</th>
+                          <th className="py-2 px-4 text-right font-medium">Total</th>
+                      </tr>
+                  </thead>
+                  <tbody className="text-gray-300">
+                      <tr className="border-b border-gray-700/50 hover:bg-white/5 transition-colors">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap">Receita de Aluguel Potencial</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">20.045.868</td>
+                          <td className="py-2 px-4 text-right">31.318.273</td>
+                          <td className="py-2 px-4 text-right">32.884.187</td>
+                          <td className="py-2 px-4 text-right">34.528.397</td>
+                          <td className="py-2 px-4 text-right">36.254.816</td>
+                          <td className="py-2 px-4 text-right">38.067.557</td>
+                          <td className="py-2 px-4 text-right">39.970.935</td>
+                          <td className="py-2 px-4 text-right">41.969.482</td>
+                          <td className="py-2 px-4 text-right">3.590.766</td>
+                          <td className="py-2 px-4 text-right font-medium">278.630.282</td>
+                      </tr>
+                      <tr className="border-b border-gray-700/50 hover:bg-white/5 transition-colors text-red-400">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap">Vacância</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-11.207.003</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-4.826.195</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-5.150.593</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right font-medium">-21.183.791</td>
+                      </tr>
+                      <tr className="border-b border-gray-700/50 hover:bg-white/5 transition-colors text-red-400">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap">Comissões de Locação</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-2.515.880</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-1.602.195</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-1.709.889</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right font-medium">-5.827.964</td>
+                      </tr>
+                      <tr className="border-b border-gray-700/50 hover:bg-white/5 transition-colors text-red-400">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap">Carência</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-3.786.606</td>
+                          <td className="py-2 px-4 text-right">-1.275.945</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">-3.224.000</td>
+                          <td className="py-2 px-4 text-right">-3.440.705</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right font-medium">-11.727.256</td>
+                      </tr>
+                      <tr className="border-b-2 border-gray-600 hover:bg-white/5 transition-colors bg-gray-800/20">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap text-white">Receita Líquida</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right text-white">2.536.380</td>
+                          <td className="py-2 px-4 text-right text-white">30.042.328</td>
+                          <td className="py-2 px-4 text-right text-white">32.884.187</td>
+                          <td className="py-2 px-4 text-right text-white">34.528.397</td>
+                          <td className="py-2 px-4 text-right text-white">36.254.816</td>
+                          <td className="py-2 px-4 text-right text-white">31.639.167</td>
+                          <td className="py-2 px-4 text-right text-white">36.746.935</td>
+                          <td className="py-2 px-4 text-right text-white">31.668.295</td>
+                          <td className="py-2 px-4 text-right text-white">504.874.768</td>
+                          <td className="py-2 px-4 text-right font-bold text-white">741.175.274</td>
+                      </tr>
+                      <tr className="border-b border-gray-700/50 hover:bg-white/5 transition-colors bg-gray-800/40">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap text-accent">Receita do investidor</td>
+                          <td className="py-2 px-4 text-right text-accent">0</td>
+                          <td className="py-2 px-4 text-right text-accent">0</td>
+                          <td className="py-2 px-4 text-right text-accent">2.038.041</td>
+                          <td className="py-2 px-4 text-right text-accent">24.139.726</td>
+                          <td className="py-2 px-4 text-right text-accent">26.423.227</td>
+                          <td className="py-2 px-4 text-right text-accent">27.744.389</td>
+                          <td className="py-2 px-4 text-right text-accent">29.131.608</td>
+                          <td className="py-2 px-4 text-right text-accent">25.422.824</td>
+                          <td className="py-2 px-4 text-right text-accent">29.527.038</td>
+                          <td className="py-2 px-4 text-right text-accent">25.446.229</td>
+                          <td className="py-2 px-4 text-right text-accent">405.678.897</td>
+                          <td className="py-2 px-4 text-right font-medium text-accent">0</td>
+                      </tr>
+                      <tr className="border-b border-gray-700/50 hover:bg-white/5 transition-colors text-red-400">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap">Custo de aquisição</td>
+                          <td className="py-2 px-4 text-right">-5.754.840</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right font-medium">0</td>
+                      </tr>
+                      <tr className="border-b border-gray-700/50 hover:bg-white/5 transition-colors text-red-400">
+                          <td className="py-2 px-4 font-medium whitespace-nowrap">Capex</td>
+                          <td className="py-2 px-4 text-right">-49.343.141</td>
+                          <td className="py-2 px-4 text-right">-87.925.182</td>
+                          <td className="py-2 px-4 text-right">-37.920.628</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right">0</td>
+                          <td className="py-2 px-4 text-right font-medium">-175.188.951</td>
+                      </tr>
+                  </tbody>
+                  <tfoot className="bg-accent/10 border-t-2 border-accent">
+                      <tr className="text-white font-medium">
+                          <td className="py-2 px-4 font-bold whitespace-nowrap">Free Cashflow</td>
+                          <td className="py-2 px-4 text-right text-red-400">-55.097.981</td>
+                          <td className="py-2 px-4 text-right text-red-400">-87.925.182</td>
+                          <td className="py-2 px-4 text-right text-red-400">-35.882.587</td>
+                          <td className="py-2 px-4 text-right text-green-400">24.139.726</td>
+                          <td className="py-2 px-4 text-right text-green-400">26.423.227</td>
+                          <td className="py-2 px-4 text-right text-green-400">27.744.389</td>
+                          <td className="py-2 px-4 text-right text-green-400">29.131.608</td>
+                          <td className="py-2 px-4 text-right text-green-400">25.422.824</td>
+                          <td className="py-2 px-4 text-right text-green-400">29.527.038</td>
+                          <td className="py-2 px-4 text-right text-green-400">25.446.229</td>
+                          <td className="py-2 px-4 text-right text-green-400">405.678.897</td>
+                          <td className="py-2 px-4 text-right"></td>
+                      </tr>
+                  </tfoot>
+               </table>
             </div>
           </motion.div>
 
