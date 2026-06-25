@@ -246,7 +246,7 @@ export function PousoAlegre() {
 
             {/* Card Notícia 2 */}
             <motion.a 
-              href="https://diariodocomercio.com.br/economia/pouso-alegre-armazem-refrigerado/"
+              href="https://terradomandu.com.br/index.php/2026/06/24/fulwood-investe-mais-r-150-milhoes-e-ira-quase-triplicar-pouso-alegre-business-park/"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}
@@ -258,7 +258,7 @@ export function PousoAlegre() {
               <div className="h-48 bg-gray-800 relative overflow-hidden">
                  <img 
                   src="https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=2070&auto=format&fit=crop" 
-                  alt="Armazém Refrigerado Pouso Alegre" 
+                  alt="Expansão Pouso Alegre Business Park" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-60 mix-blend-luminosity"
                   referrerPolicy="no-referrer"
                 />
@@ -269,11 +269,11 @@ export function PousoAlegre() {
                  <div className="flex items-center gap-3 mb-4 opacity-0">
                   <span className="px-2 py-1 bg-transparent text-transparent text-[10px] font-bold rounded uppercase tracking-wider">.</span>
                 </div>
-                <h4 className="text-lg font-serif text-white mb-3 group-hover:text-white/80 transition-colors">
-                  Pouso Alegre ganha novo armazém refrigerado
+                <h4 className="text-lg font-serif text-white mb-3 group-hover:text-accent transition-colors">
+                  Fulwood investe R$ 150 milhões para triplicar Business Park
                 </h4>
                 <p className="text-gray-400 text-sm leading-relaxed mb-4 flex-grow">
-                  A cidade continua a atrair grandes empreendimentos logísticos. O novo armazém refrigerado chega para alinhar alta demanda.
+                  A Fulwood anunciou nova expansão do Pouso Alegre Business Park com aporte de mais de R$ 150 milhões, demonstrando a forte atratividade do hub logístico do Sul de Minas.
                 </p>
                 <div className="flex items-center text-accent text-sm font-medium group-hover:translate-x-2 transition-transform">
                   Ler matéria &rarr;
