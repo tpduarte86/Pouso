@@ -133,34 +133,54 @@ export function CapitalStructure() {
                     <TrendingUp className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl text-white font-medium">Deal B – Aporte Primário</h3>
+                    <h3 className="text-2xl text-white font-medium">Deal B – Área de Expansão (Fases 3 e 4)</h3>
                     <p className="text-accent text-sm font-medium">Foco em Expansão</p>
                   </div>
                 </div>
 
-                <ul className="space-y-6 mb-8 mt-8">
-                  <li className="flex items-start gap-4">
-                    <Lightbulb className="w-5 h-5 text-accent shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-white block mb-1">Tese de Investimento:</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">Injeção de recursos puramente para a execução das Fases 3 e 4. Captura da arbitragem de valor do desenvolvimento imobiliário em novas áreas.</span>
+                <div className="space-y-6 mb-8 mt-8">
+                  <div className="bg-gray-800/40 rounded-2xl p-5 border border-gray-700">
+                    <div className="flex items-center gap-3 mb-2">
+                      <span className="bg-gray-700 text-white text-xs font-bold px-2.5 py-1 rounded">Opção 1</span>
+                      <h4 className="text-white font-medium text-lg">Aquisição Futura</h4>
                     </div>
-                  </li>
-                  <li className="flex items-start gap-4">
-                    <Wallet className="w-5 h-5 text-accent shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-white block mb-1">Estrutura da Operação (Fases 3 e 4):</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">O terreno entra na Sociedade (SPE) avaliado em R$ 40,2 milhões, enquanto o investidor aporta R$ 164,4 milhões para a execução integral das obras.</span>
+                    <p className="text-gray-400 text-sm leading-relaxed">
+                      Compra a um cap rate de 10% com Renda Mínima Garantida (RMG) até 6 meses após entrega de obra.
+                    </p>
+                  </div>
+
+                  <div className="bg-gray-800/40 rounded-2xl p-6 border border-accent/30 relative shadow-lg shadow-accent/5">
+                    <div className="absolute top-0 left-0 w-1 h-full bg-accent rounded-l-2xl"></div>
+                    <div className="flex items-center gap-3 mb-5">
+                      <span className="bg-accent text-brand-900 text-xs font-bold px-2.5 py-1 rounded">Opção 2</span>
+                      <h4 className="text-white font-medium text-lg">Aporte Primário (Desenvolvimento)</h4>
                     </div>
-                  </li>
-                  <li className="flex items-start gap-4">
-                    <PieChart className="w-5 h-5 text-accent shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-white block mb-1">Parceria Societária:</strong>
-                      <span className="text-accent font-medium leading-relaxed text-base">80,35% de Equity para o FII / 19,65% para o Proprietário Atual.</span>
-                    </div>
-                  </li>
-                </ul>
+
+                    <ul className="space-y-5">
+                      <li className="flex items-start gap-3">
+                        <Lightbulb className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                        <div>
+                          <strong className="text-white block mb-1 text-sm">Tese de Investimento:</strong>
+                          <span className="text-gray-400 font-light leading-relaxed text-sm">Injeção de recursos puramente para a execução das Fases 3 e 4. Captura da arbitragem de valor do desenvolvimento imobiliário em novas áreas.</span>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Wallet className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                        <div>
+                          <strong className="text-white block mb-1 text-sm">Estrutura da Operação:</strong>
+                          <span className="text-gray-400 font-light leading-relaxed text-sm">O terreno entra na Sociedade (SPE) avaliado em R$ 40,2 milhões, enquanto o investidor aporta R$ 164,4 milhões para a execução integral das obras.</span>
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <PieChart className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                        <div>
+                          <strong className="text-white block mb-1 text-sm">Parceria Societária:</strong>
+                          <span className="text-accent font-medium leading-relaxed text-sm">80,35% de Equity para o FII / 19,65% para o Proprietário Atual.</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
 
                 <div className="grid grid-cols-2 gap-4 mb-8">
                    <div className="bg-gray-800/60 rounded-2xl p-6 border border-gray-700/50 flex flex-col items-center justify-center text-center">
