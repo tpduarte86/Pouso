@@ -51,7 +51,7 @@ export function CapitalStructure() {
                     <Lightbulb className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-white block mb-1">Tese de Investimento:</strong>
-                      <span className="text-gray-400 font-light leading-relaxed text-sm">Aquisição de 40% das Fases 1 e 2. Foco em tijolo com baixo risco de engenharia e dividendo imediato.</span>
+                      <span className="text-gray-400 font-light leading-relaxed text-sm">Aquisição de 60% das Fases 1 e 2. Foco em tijolo com baixo risco de engenharia e dividendo imediato.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -80,7 +80,7 @@ export function CapitalStructure() {
              {/* Tabela Opção A */}
              <div className="bg-gray-800/80 p-6 md:p-10 border-t border-gray-700">
                 <h4 className="text-white font-medium mb-4 flex items-center gap-2">
-                   Métricas da Aquisição (40% Fases 1 e 2)
+                   Métricas da Aquisição (60% Fases 1 e 2)
                 </h4>
                 <div className="overflow-x-auto">
                     <table className="w-full text-left text-sm border-collapse">
@@ -92,16 +92,16 @@ export function CapitalStructure() {
                         </thead>
                         <tbody className="text-gray-300">
                             <tr className="border-b border-gray-700/50">
-                                <td className="py-3">Valuation Alocado (40%)</td>
-                                <td className="py-3 text-right">R$ 87.500.000</td>
+                                <td className="py-3">Valuation Alocado (60%)</td>
+                                <td className="py-3 text-right">R$ 131.250.000</td>
                             </tr>
                             <tr className="border-b border-gray-700/50">
                                 <td className="py-3">Receita Mensal (Fase 1 + RMG Fase 2)</td>
-                                <td className="py-3 text-right">R$ 729.200</td>
+                                <td className="py-3 text-right">R$ 1.093.800</td>
                             </tr>
                             <tr className="border-b border-gray-700/50">
-                                <td className="py-3 font-medium text-white">NOI Anualizado Projetado (40%)</td>
-                                <td className="py-3 text-right font-medium text-white">R$ 8.750.400</td>
+                                <td className="py-3 font-medium text-white">NOI Anualizado Projetado (60%)</td>
+                                <td className="py-3 text-right font-medium text-white">R$ 13.125.600</td>
                             </tr>
                             <tr className="border-b border-gray-700/50">
                                 <td className="py-3 text-accent font-medium">Cap Rate de Entrada</td>
