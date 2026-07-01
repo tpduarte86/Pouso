@@ -133,8 +133,8 @@ export function CapitalStructure() {
                     <TrendingUp className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl text-white font-medium">Deal B – Área de Expansão (Fases 3 e 4)</h3>
-                    <p className="text-accent text-sm font-medium">Foco em Expansão</p>
+                    <h3 className="text-2xl text-white font-medium">Deal B – Área de Expansão</h3>
+                    <p className="text-accent text-sm font-medium">Fases 3 e 4</p>
                   </div>
                 </div>
 
@@ -142,7 +142,7 @@ export function CapitalStructure() {
                   <div className="bg-gray-800/40 rounded-2xl p-5 border border-gray-700">
                     <div className="flex items-center gap-3 mb-2">
                       <span className="bg-gray-700 text-white text-xs font-bold px-2.5 py-1 rounded">Opção 1</span>
-                      <h4 className="text-white font-medium text-lg">Aquisição Futura</h4>
+                      <h4 className="text-white font-medium text-lg">Aquisição com RMG</h4>
                     </div>
                     <p className="text-gray-400 text-sm leading-relaxed">
                       Compra a um cap rate de 10% com Renda Mínima Garantida (RMG) até 6 meses após entrega de obra.

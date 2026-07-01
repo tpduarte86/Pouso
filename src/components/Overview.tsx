@@ -80,17 +80,17 @@ export function Overview() {
             <div className="space-y-6">
               <div className="bg-brand-900 p-8 border border-gray-800 hover:border-accent/40 transition-colors">
                 <Building2 className="w-7 h-7 text-accent mb-4" />
-                <h3 className="text-white text-xl font-medium mb-3">Vizinhança Corporativa</h3>
+                <h3 className="text-white text-xl font-medium mb-3">Hub Industrial</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  A rodovia atua como um hub consolidado atraindo grandes players. O entorno abriga centros de distribuição da Unilever (fundo KNRI) e União Química, além da atuação industrial da Biolab, Yoki e Pouso Alegre Business Park. Próximo à intersecção com a BR-459, destaca-se o distrito industrial com instalações da Cimed e XCM.
+                  A rodovia atua como um hub consolidado atraindo grandes players como Midea, Boticário, Mercado Livre e outros. O entorno abriga centros de distribuição da <a href="https://www.youtube.com/watch?v=d8_7SyprweQ" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Unilever (fundo KNRI11)</a> e União Química, além da atuação industrial da Biolab, Yoki e Pouso Alegre Business Park. Próximo à intersecção com a BR-459, destaca-se o distrito industrial com instalações da Cimed e XCM.
                 </p>
               </div>
 
               <div className="bg-brand-900 p-8 border border-gray-800 hover:border-accent/40 transition-colors">
                 <TrendingUp className="w-7 h-7 text-accent mb-4" />
-                <h3 className="text-white text-xl font-medium mb-3">Dinâmica de Mercado</h3>
+                <h3 className="text-white text-xl font-medium mb-3">Demanda Não Atendida e Autonomia</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">
-                  A região apresenta forte absorção por meio de desenvolvimentos sob medida atrelados a contratos atípicos de longo prazo. A métrica atual entre elevados custos construtivos e tickets de locação restringe o surgimento de empreendimentos puramente especulativos, blindando ativos já posicionados.
+                  A atratividade da região consolidou-se fortemente e hoje seu crescimento já independe de benefícios fiscais para atrair empresas. O mercado local opera em um cenário de demanda reprimida evidente: a procura por galpões de alto padrão é consideravelmente maior que a oferta existente. Atualmente, a vacância em empreendimentos premium (Classe A) na área é praticamente nula. Grandes indústrias e varejistas seguem buscando ativamente espaços de qualidade para expandir suas operações, mas esbarram na total falta de disponibilidade, garantindo absorção rápida e acelerada para novas construções.
                 </p>
               </div>
             </div>
